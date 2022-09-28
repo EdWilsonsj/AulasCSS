@@ -1,0 +1,15 @@
+
+h1,h3{
+    background-color: aqua;
+}
+
+table{
+    background-color: rgb(244, 186, 14);
+}
+
+.tablejapanese{
+
+        font-size: 20px;
+         color: white; 
+         font-weight: bold;
+    }
