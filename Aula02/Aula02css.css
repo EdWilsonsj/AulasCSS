@@ -1,0 +1,45 @@
+#linkform{
+    background-color: rgb(185, 222, 21);
+    color: black;
+}
+
+#linkform:hover{
+    background-color: rgb(224, 10, 60);
+    color: white;
+    font-size: large;
+}
+
+#linkform:visited{
+    background-color: rgb(178, 166, 169);
+    color: rgb(198, 22, 72);
+    font-size: large;
+}
+
+input[type="text"]{
+background-color: rgb(212, 180, 243);
+color: white;
+border: 0;  
+}
+
+input[type="email"] { 
+background-color: rgb(249, 194, 194);
+color: white;   
+
+}
+
+
+
+
+section > h4{
+    background-color: rgb(232, 255, 173);
+    font-size: large;
+    color: blue;
+}
+
+ol li{
+    color:red;
+}
+
+ul li{
+    background-color: green;
+}
