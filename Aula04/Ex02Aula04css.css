@@ -1,0 +1,40 @@
+.overflowtypes{
+    position:absolute;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+#overscroll{
+    left: 10%;
+    background-color:rgb(92, 232, 96);
+    overflow: scroll;
+}
+
+#overhidden{
+    left: 30%;
+    background-color: rgb(193, 184, 58) ;
+    overflow: hidden;
+}
+
+#overauto{
+    left: 50%;
+    background-color: rgb(55, 115, 226);
+    overflow: auto;
+}
+
+#overvisible{
+    left: 70%;
+    background-color: rgb(54, 208, 59);
+    overflow: visible;
+}
+
+li{
+    display: inline-block;
+    background-color: antiquewhite;
+    font-size: 20px;
+    margin: 0 0 0 20px;
+    
+    position: relative;
+    right:20px;
+}
