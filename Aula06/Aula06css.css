@@ -1,0 +1,62 @@
+body{
+
+}
+
+@font-face {
+    font-family: 'Play';
+    src: url(recursos_css_a06/Play/Play-Regular.ttf);
+}
+
+
+
+p{
+    color: darkgray;
+    text-align: justify;
+    font-size: 12px;
+    font-family:'Roboto';
+}
+
+h1, h3{
+    color: black;
+    font-size: 16px;
+    font-family: 'Play';
+}
+
+#maintitle{
+    text-align: center;
+}
+
+
+.list1 li{
+    list-style: decimal;
+    position: relative;
+    float: left;
+    margin: 0 0 0 30px;
+}
+
+table{
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid;
+}
+
+th, td{
+    padding:20px;
+    border:1px solid brown;
+    text-align: center;
+}
+
+.table1{
+    position: absolute;
+    left:45%;
+}
+
+tr,th:nth-child(2n-1){
+    background-color: aquamarine;
+}
+
+tr:nth-child(2n-1){
+    background-color: rgb(203, 247, 233);
+}
+
+
