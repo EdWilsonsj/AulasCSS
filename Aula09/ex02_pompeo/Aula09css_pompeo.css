@@ -1,0 +1,547 @@
+html{
+    scroll-behavior: smooth;                                        /* conceito smooth*/
+}
+
+body{
+    font-family: 'Libre Franklin';
+    font-size: 14px;
+    color: #6c6c6c;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+    position: fixed;
+    z-index: 5;
+}
+
+header .logopompeo{
+    margin-left: 100px;
+}
+
+.navheader{
+    font-family: 'Poppins', Arial;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 21px 20px;
+    display: flex;
+    margin-right: 100px;
+}
+
+.navheader_items{
+    padding: 21px;
+}
+
+.navheader a:active {
+    color: #ac1313;
+}
+
+.navheader a:visited {
+    color:#6c6c6c;
+  }
+
+.navheader a:hover {
+    color: #000000;
+}
+
+.navheader nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.container_cart img{                                                /*ícone - carrinho de compras*/
+    width: 20px;
+    height: 20px;
+    opacity: 70%;
+    margin: 0 5px 0 15px;
+}
+
+.container_cart{
+    border-left: 1px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.porcelain{                                                     /*Apresentação*/
+    margin-left: 100px;
+    background-color:hsla(0, 0%, 85.9%, 0.1);
+    width: 1200px;
+    height: 100vh;
+    border-top: 1px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.background_apresentation{                                             /*imagem de apresentação*/
+    width: 50%;
+    height: 500px;
+}
+
+.image_apresentation{
+    width: 800px;
+    height: 100%;
+    background-image: url('https://assets.website-files.com/5ba96977bf120e1b45986c06/5e602d43ad635f0fe2d06a05_Untitled-2d2%20(2).png');
+    background-size: 800px;
+    background-position: 50% 50%;
+    margin-left: -126px;
+    background-repeat: no-repeat;
+}
+
+
+.porcelain .larguetitle{
+    font-size: 50px;
+}
+
+.container_apresentation{        
+    z-index: 1;                               /*container - frases de apresentação*/
+    width: 50%;
+    padding: 550px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 25px;
+}
+
+#apresentation_slogan{
+    font-size: 16px;
+}
+
+.simpletitle{                                                /*títulos simples em salmão -  ex: POMPEO POTTERY*/
+    color: #d77474;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Poppins', Arial;
+    letter-spacing: 2px;
+    line-height: 24px;
+    margin-inline-start: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0.83em;
+}
+
+.larguetitle{                                                  /*títulos grandes em preto -  ex: Unique Porcelain & Stone Collection*/
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Poppins', Arial;
+    font-weight: 600;
+    line-height: 50px;
+    margin:0 20px 0 10px;
+    font-weight: bold;   
+    margin-inline-start: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.specialE{                                                      /*Letra & estilizada*/ 
+    font-family: 'Playfair Display';
+    color:#ac1313;
+    font-size: 68px;
+    font-weight: 400;
+}
+
+.buttonlink a:visited{                                           /* botões vermelhos visitados */
+    color: #FFFFFF;
+}
+
+.buttonlink{                                                      /* botões vermelhos  */
+    width: 201px;
+    height: 62px;
+    background-color: #ac1313;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px 0;
+}
+
+.buttonlink:hover{
+    transform: translate(0px, -4px);
+    background-color: #000000;
+
+}
+
+.beige_circle, .orange_circle, .red_circle{                         /* Botões em círculos coloridos  */
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_circles a:visited{                                        /* Botões em círculos coloridos  */
+    color:#FFFFFF;
+}
+
+.container_circles{
+    margin-top: 50px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.beige_center, .orange_center, .red_center{                           /* Botões em círculos coloridos - centro */
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_circles p{                                                 /* Botões em círculos coloridos - escrita */   
+    color:white;
+    font-size: 14px;
+    font-family: 'Poppins', Arial;
+}
+
+.container_circles img{                                                 /* Botões em círculos coloridos - ícone */   
+    width: 70px;
+    height: 70px;
+}
+
+.beige_circle{
+    background-color: #e0a951;
+}
+
+.beige_center{
+    background-color: #e4b366;
+}
+
+.orange_circle{
+    background-color: #e14b00;
+}
+.orange_center{
+    background-color: #f05b10;
+}
+
+.red_circle{
+    background-color: #9d0000;
+}
+
+.red_center{
+    background-color: #a21010;
+}
+
+.container_title_categories{                                          /*container para os títulos da aba categorias (círculos)  */
+    display: block;
+    text-align: center;
+}
+
+.container_article_categories{                                    /* container para os articles da aba categorias */
+    display: flex;
+    
+}
+
+.container_article_categories article{
+    width: 50%;
+    padding: 5%;
+    line-height: 24px;  
+}
+
+.categoriestitle{                                             /* Subtítulos na área Categorias de produtos */
+    font-size: 30px;
+    line-height: 36px; 
+    font-weight: 400;
+    color: #000000;
+    font-family: 'Poppins', Arial;
+}
+
+.other_products h3{                                             /* Subtítulos na área Categorias de produtos - continuação da categoria */
+    font-size: 24px;
+    color:#000000;
+    font-family: 'Poppins', Arial;
+}
+
+.other_products p{
+    width: 80%;
+    line-height: 24px;
+}
+
+.other_products a{                                              /* Subtítulos na área Categorias de produtos - continuação da categoria (links)*/
+    color:#000000;
+    font-size: 15px;
+    font-family: 'Poppins', Arial;
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.other_products a:visited{                                    /* Subtítulos na área Categorias de produtos - continuação da categoria (links)*/  
+    color:#000000;
+}
+
+.other_products a:hover{                                       /* Subtítulos na área Categorias de produtos - continuação da categoria (links)*/
+    text-decoration: underline;
+}
+
+.GBpottery{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.Orange_ceramic{
+    display: flex;
+    padding-left: 100px;
+}
+
+.GBpottery img{                                                  /* Imagem Gold & Black Pottery (Categoria de Produtos) */
+    width: 250px;
+    height: 509px;
+}
+
+.Orange_ceramic img{                                             /* Imagem Orange Ceramic (Categoria de Produtos) */
+    width: 350px;
+    height: 417px;
+}
+
+.container_GBpottery, .container_Oceramic{
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img_GBpottery, .img_Oceramic{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.ONproduct a:visited{                                                /* Loja Online - produtos (ON)*/
+    color: #6c6c6c;
+}
+
+.ONproduct a{                                                          /* Loja Online - produtos (ON)*/
+    font-size: 16px;
+    color: #6c6c6c;
+}
+
+.container_ONstore{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    margin: 50px 0;
+}
+
+.ONstore{
+    border-top: 1px solid #ebebeb;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ONproduct{                                                          /* Loja Online - div Produtos (ON)*/
+    width: 29vw;
+    border-bottom: 1px solid #ebebeb;
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:space-evenly;
+    overflow: hidden;
+}
+
+.ONproduct:hover{
+    scale:110%;
+}
+
+.Items_description{
+    height: 10%;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Items_description p{
+    font-size: 14px; 
+    color: #000000;
+    font-family: 'Poppins', Arial;
+    font-weight: 600;
+    line-height: 5px;
+}
+
+.ONproduct img{                                                  /* Loja Online - imagem Produtos (ON)*/
+    width: 100%;
+}
+
+.folderReady p{                                                    /* Área do Folder (Ready to start shopping?) */
+    font-size: 16px;
+}
+
+.folderReady span{
+    color:#ac1313;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.folderReady{
+    border-top: 1px solid #ebebeb;
+    background-image: linear-gradient(90deg, hsla(0, 0%, 100%, 0.89) 13%, hsla(0, 0%, 100%, 0) 57%), url('https://assets.website-files.com/5ba96977bf120e1b45986c06/5bb966fd82df351adbb449c6_raul-cacho-oses-779595-unsplash-p-3200.jpeg');
+    background-size: auto, cover;
+    padding: 120px 10px 120px 10px;
+    background-position: 0px 0px, 50% 33%;
+    box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.23);
+
+    z-index: -1;                                     /*aplicando efeito parallax*/
+    background-attachment: fixed;                   /*aplicando efeito parallax*/                           
+}
+
+.containerReady{                                                   /*container dos textos da aba do folder  */
+    margin:10px;   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.containerReady p{
+    width: 80%;
+}
+
+footer h3{
+    color: #000000;
+}
+
+.airplane_circle{
+    width: 80px;
+    height: 80px;
+    background-color: #ebb96a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.airplane_circle img{
+    width: 38px;
+    height: 38px;
+}
+
+.LatestNews{
+    border-top: 1px solid #ebebeb;
+    padding: 100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.LatestNews *{
+    margin:15px 0;
+}
+
+.formNews{                                                   /*  mini formulário de subscribe*/
+    width: 60%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#emailspace{                                          /*input de texto - subscribe */
+    display: inline-block;
+    line-height: 23px;
+    height: 45px;
+    width: 63%;
+    margin-right: 2px;
+    border-style: solid;
+    border-color: #ebebeb;
+    border-bottom-width: 1px;
+    background-color: hsla(0, 0%, 85.9%, 0.1);
+    
+}
+
+.button_subscribe{                                     /*botão de subscribe  */
+    float:right;
+    width: 35%;
+    height: 51px;
+    background-color: #000000;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_subscribe:hover{
+    background-color: #ac1313;
+    border:none;
+}
+
+.buttons_form{
+    width:100%;
+}
+
+#check_sign{
+    margin:10px;
+}
+
+.logopompeo{
+    font-family:'Pacifico', Arial;
+    font-size: 34px;
+    font-weight: 700;
+    color:#000000;
+    margin: 10px;
+}
+
+.logopompeo:visited{
+    color:#000000;
+}
+
+.footericon{
+    width:40px;
+    height: 40px;
+}
+
+footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_text_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_text_footer p{
+    width: 30%;
+}
+
+
+
+.containerfooter{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -60px;
+}
+
+footer small{
+    margin: 50px 0 10px 0;
+}
