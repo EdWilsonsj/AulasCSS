@@ -1,0 +1,144 @@
+.space{
+    background-color: black;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ghost{
+    width: 100px;
+    height: 100px;
+    margin:20px;
+    float: left;
+    position:relative;
+    animation-name: appeared;
+    animation-duration: 5s;
+}
+
+
+.headghost{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    position: relative;
+    float: left;
+
+}
+
+.eyesghost{
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.iris{
+    background-color: black;
+    width: 14px;
+    height: 14px;
+    position: relative;
+    border-radius: 50%;
+    margin: 10px 15px;
+    float: right;
+}
+
+#eye2 .iris{
+   float: left;
+}
+
+#eye1{
+    float: right;
+    margin: 40px 14.5px 0px 0px;
+}
+
+#eye2{
+    margin: 40px 0px 0px 14.5px;
+}
+
+
+.legsghost {
+    border-right: 25px solid green;
+    border-left: 25px solid green;
+    border-bottom: 25px solid transparent;
+    display: block;
+    float: left;
+  }
+
+
+  #yellow .headghost{
+    background-color: yellow;
+  }
+
+  #yellow .legsghost{
+    border-right: 25px solid yellow;
+    border-left: 25px solid yellow;
+    border-bottom: 25px solid transparent;
+  }
+
+  #orange .headghost{
+    background-color: orange;
+  }
+
+  #orange .legsghost{
+    border-right: 25px solid orange;
+    border-left: 25px solid orange;
+    border-bottom: 25px solid transparent;
+  }
+
+  #red .headghost{
+    background-color: red;
+  }
+
+  #red .legsghost{
+    border-right: 25px solid red;
+    border-left: 25px solid red;
+    border-bottom: 25px solid transparent;
+  }
+
+.pacman{
+    float:left;
+    margin: 30px;
+    border-right: 50px solid transparent;
+    border-top: 50px solid yellow;
+    border-bottom: 50px solid yellow;
+    border-left: 50px solid yellow;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+}
+
+
+@keyframes appeared{
+  0% {
+    transform: translateY(200px);
+    opacity: 0%;
+  }
+
+  85%{
+    transform: translateY(0px);
+    opacity: 100%;
+  }
+
+  90%{
+    transform: rotateZ(5deg);
+  }
+
+  95%{
+    transform: rotateZ(-10deg);
+  }
+
+  100%{
+    transform: rotateZ(5deg);
+  }
+}
+
+
